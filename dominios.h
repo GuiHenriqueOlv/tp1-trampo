@@ -16,8 +16,8 @@ using namespace std;
 /// - Ponto eh precedido por letraX é dígito verificador calculado através de algorítmo módulo 11;
 ///
 
- 
- class Codigo{
+
+class Codigo{
     
     private:
         string codigo;
@@ -29,7 +29,7 @@ using namespace std;
         ///
         /// Lança exceção caso o codigo nao esteja de acordo com as regras de formato
         ///
-        /// @param valor codigo
+        /// @param codigo codigo
         ///
         /// @throw invalid_argument
         ///
@@ -75,7 +75,7 @@ class Data{
         ///
         /// Lança exceção caso a data nao esteja de acordo com as regras de formato
         ///
-        /// @param valor data
+        /// @param data data
         ///
         /// @throw invalid_argument
         ///
@@ -119,7 +119,7 @@ class Matricula{
         ///
         /// Lança exceção caso a matricula nao esteja de acordo com as regras de formato
         ///
-        /// @param valor matricula
+        /// @param matricula matricula
         ///
         /// @throw invalid_argument
         ///
@@ -164,7 +164,7 @@ class Nome{
         ///
         /// Lança exceção caso o nome nao esteja de acordo com as regras de formato
         ///
-        /// @param valor nome
+        /// @param nome nome
         ///
         /// @throw invalid_argument
         ///
@@ -209,7 +209,7 @@ class Senha{
         ///
         /// Lança exceção caso a senha nao esteja de acordo com as regras de formato
         ///
-        /// @param valor senha
+        /// @param senha senha
         ///
         /// @throw invalid_argument
         ///
@@ -254,7 +254,7 @@ class Texto{
         ///
         /// Lança exceção caso o texto nao esteja de acordo com as regras de formato
         ///
-        /// @param valor texto
+        /// @param texto texto
         ///
         /// @throw invalid_argument
         ///
@@ -293,7 +293,7 @@ class Disciplina{
         ///
         /// Lança exceção caso a disciplina nao esteja de acordo com as regras de formato
         ///
-        /// @param valor disciplina
+        /// @param disciplina disciplina
         ///
         /// @throw invalid_argument
         ///
